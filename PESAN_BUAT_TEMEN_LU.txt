@@ -1,0 +1,10 @@
+Mek,
+
+App lu kemarin force close / gagal build gara-gara 2 hal sepele (bukan salah code lu):
+
+1. Di komputer gw, versi Java-nya pakai JDK 27. React Native Android wajib pake JDK 17. Gw udah downgrade JDK gw ke 17 dan udah bisa.
+2. Folder `node_modules`-nya belom ada pas di-clone. Jadi Gradle (builder Android) nyari module React Native nggak ketemu. Gw cuma jalanin `npm install` dan langsung aman.
+
+Intinya, kode lu aman mek. Kalo lu mau ngerun, pastiin lu install JDK 17 sama jangan lupa `npm install`.
+
+- Fikri

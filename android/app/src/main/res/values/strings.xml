@@ -1,7 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">Smart Calculator</string>
-    <string name="title_activity_main">Smart Calculator</string>
-    <string name="package_name">com.smartcalculator.history</string>
-    <string name="custom_url_scheme">com.smartcalculator.history</string>
 </resources>
